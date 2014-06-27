@@ -13,12 +13,6 @@
 
 import sys, os
 
-# Try mocking to get around the `matplotlib.sphinxext` problem
-import mock
-MOCK_MODS = ['numpy', 'matplotlib', 'matplotlib.pyplot']
-for mod in MOCK_MODS:
-    sys.modules[mod_name] = mock.Mock()
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
