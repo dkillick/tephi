@@ -1,3 +1,5 @@
 # Top-level files
 include COPYING COPYING.LESSER README.rst
 
+# Test data files
+recursive-include etc *.txt *.pkl
